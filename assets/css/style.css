@@ -1,0 +1,57 @@
+ *
+ {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #28282B;
+}
+audio::-webkit-media-controls-play-button 
+{
+  display: none;
+}
+audio::-webkit-media-controls-timeline
+{
+  
+  
+  width: 20px;
+  padding: 10px 12px;
+  
+}
+
+audio::-webkit-media-controls-current-time-display
+{      
+  color: white;
+  font-weight: bolder;
+}
+audio::-webkit-media-controls-time-remaining-display
+{
+  color: #ED5EDD;
+  font-weight: bolder;
+}
+// scroll bar
+#right
+{
+
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ED5EDD; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: white; 
+}
+
+.box_shadow
+{
+  box-shadow: rgba(252, 0, 129, 0.25) 12px 54px 55px, rgba(252, 0, 129, 0.25) 0px -12px 30px, rgba(252, 0, 129, 0.25) 0px 4px 6px, rgba(252, 0, 129, 0.25) 0px 12px 13px, rgba(252, 0, 129, 0.25) 0px -3px 5px;
+
+}

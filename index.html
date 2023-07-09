@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Music Player</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jsmediatags/3.9.5/jsmediatags.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <div id="main" class="w-100 h-100 d-lg-flex flex-lg-row flex-sm-column justify-content-center align-items-center p-3" style="background-color: #28282B;">
+    <div class="rounded box_shadow mx-sm-auto mb-sm-4" style="background-color: #28282B;width: 350px; height: 600px;">
+      <img src="https://www.freeiconspng.com/uploads/purple-music-note-icon-23.png" width="250px" height="250px" class="rounded-circle mt-5 mx-5 mb-4 shadow" style="border: 1px dashed #ED5EDD;">
+      <h4 id="song_name" class=" text-center" style="color:#ED5EDD;">See You again</h4>
+      <p class="text-white text-center">By Music Company</p>
+      <div>
+        <audio src="https://www.computerhope.com/jargon/m/example.mp3" preload="auto" controls class="text-dark mx-3 mt-2"></audio>
+      </div>
+      <div class="d-flex w-100 justify-content-center align-items-center">
+        <button id="previous_track_btn" class="p-4 rounded-circle shadow text-white me-2" style="background-color:#ED5EDD"><i id="backward" class="fa fa-backward"></i></button>
+        <button id="play_track" class="p-4 rounded-circle me-2" style="background-color:white; border: 2px solid #ED5EDD; color: #ED5EDD;"><i class="fa fa-play"></i></button>
+        <button id="next_track_btn"  class="p-4 rounded-circle shadow text-white" style="background-color:#ED5EDD"><i class="fa fa-forward"></i></button>
+      </div>
+    </div>
+    <div class="rounded box_shadow mx-sm-auto" style="background-color: #28282B;width: 350px; height: 600px;">
+      <img src="https://www.freeiconspng.com/uploads/purple-music-note-icon-23.png" width="150px" class="h-25 rounded-circle mt-5 shadow" style="margin-left: 90px; border: 1px dashed #ED5EDD;">
+      <h3 class=" text-center text-white mb-2 mt-3" style="color:#ED5EDD">Songs to Listen</h3>
+      <p class=" text-center" style="color:#ED5EDD">Listen Your Favourite Songs Here</p>
+      <ul id="list" class=" h-50 text-white overflow-scroll overflow-x-hidden list-unstyled font-weight-bold" style="color: #ED5EDD;">
+    </ul>
+  </div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="assets/js/main.js"></script>
